@@ -1,0 +1,9 @@
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.csproj.AssemblyReference.cache
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.AssemblyInfoInputs.cache
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.AssemblyInfo.cs
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.csproj.CoreCompileInputs.cache
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.RazorAssemblyInfo.cache
+C:\Users\kembe\OneDrive\Documentos\PrograI\Escuela\obj\Debug\net5.0\Escuela.RazorAssemblyInfo.cs
