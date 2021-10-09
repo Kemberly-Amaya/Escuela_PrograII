@@ -1,8 +1,18 @@
-﻿@{
+﻿@model Escuela.Models.ViewModel.CouseViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@using (Html.BeginForm("Insertar", "Home"))
+{
+    @Html.LabelFor(l => l.Title)
+    @Html.TextBoxFor(l => l.Title)
+    @Html.ValidationMessageFor(l => l.Title)
+
+    @Html.LabelFor(l => l.Credits)
+    @Html.TextBoxFor(l => l.Credits, new {Type = "Number" })
+    @Html.ValidationMessageFor(l => l.Credits)
+
+    <input type="submit" value="Continuar" />
+
+}

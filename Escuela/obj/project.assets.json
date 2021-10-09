@@ -6382,11 +6382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj",
+      "projectUniqueName": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Escuela\\Escuela.csproj",
       "projectName": "Escuela",
-      "projectPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj",
+      "projectPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Escuela\\Escuela.csproj",
       "packagesPath": "C:\\Users\\kembe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\obj\\",
+      "outputPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Escuela\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kembe\\AppData\\Roaming\\NuGet\\NuGet.Config",
