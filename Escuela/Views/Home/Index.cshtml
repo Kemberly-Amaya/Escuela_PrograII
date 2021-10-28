@@ -1,18 +1,116 @@
-﻿@model Escuela.Models.ViewModel.CouseViewModel
+﻿@*@model Escuela.Models.ViewModel.CouseViewModel*@
+@model List<Escuela.Dominio.Enrollement>
 @{
     ViewData["Title"] = "Home Page";
 }
 
 @using (Html.BeginForm("Insertar", "Home"))
-{
-    @Html.LabelFor(l => l.Title)
-    @Html.TextBoxFor(l => l.Title)
-    @Html.ValidationMessageFor(l => l.Title)
+    {
+        @*@Html.LabelFor(l => l.Title)
+        @Html.TextBoxFor(l => l.Title)
+        @Html.ValidationMessageFor(l => l.Title)
 
-    @Html.LabelFor(l => l.Credits)
-    @Html.TextBoxFor(l => l.Credits, new {Type = "Number" })
-    @Html.ValidationMessageFor(l => l.Credits)
+        @Html.LabelFor(l => l.Credits)
+        @Html.TextBoxFor(l => l.Credits, new { Type = "Number" })
+        @Html.ValidationMessageFor(l => l.Credits)*@
 
-    <input type="submit" value="Continuar" />
+        <input type="submit" value="Continuar" />
 
+    }
+    <table id="mitabla" class="table table-striped table-hover">
+
+<table id="mitabla" class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                Id Erollement
+            </th>
+            <th>
+                Student Id
+            </th>
+            <th>
+                Course Id
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                First Name
+            </th>
+            <th>
+                curso al que pertenece
+            </th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var iteracion in Model)
+        {
+        <td>@iteracion.EnrollementID</td>
+        <td>@iteracion.StudentsID</td>
+        <td>@iteracion.Course.CourseId</td>
+        <td>@iteracion.Students.LastName</td>
+        <td>@iteracion.Students.FirtsMidName</td>
+        <td>@iteracion.Course.Title</td>
+
+        }
+        </tbody>
+
+
+
+
+
+    </table>
+    @section scripts{
+
+        <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var tabla = $("#mitabla").DataTable();
+
+            })
+           
+        </script>
+               
+                   
+        @*<thead>
+                    <tr>
+                        <th>
+                            Couse Id
+                        </th>
+                        <th>
+                            Title
+                        </th>
+                        <th>
+                            Credits
+                        </th>
+                    </tr>
+
+                </thead>
+
+            </table>
+            @section scripts{
+
+            <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    var tabla = $("#mitabla").DataTable({
+                        "ajax":{
+                            "url": 'Home/GetAll',
+                            "type": "get",
+                            "datatype":"json"
+                        },
+                        "columns":[
+                            { "data": "courseId", "name": "courseId", "autowidth": true },
+                            { "data": "title", "name": "title", "autowidth": true },
+                            { "data": "credits", "name": "credits", "autowidth": true },
+                        ]
+                    })
+                })
+
+
+            </script>
+
+            }*@
 }
