@@ -819,3 +819,4 @@ C:\Users\kembe\OneDrive\Documentos\GitHub\Escuela_PrograII\Escuela\obj\Debug\net
 C:\Users\kembe\OneDrive\Documentos\GitHub\Escuela_PrograII\Escuela\obj\Debug\net5.0\Razor\Views\Home\ComboBox.cshtml.g.cs
 C:\Users\kembe\OneDrive\Documentos\GitHub\Escuela_PrograII\Escuela\obj\Debug\net5.0\Razor\Views\Student\Student.cshtml.g.cs
 C:\Users\kembe\OneDrive\Documentos\GitHub\Escuela_PrograII\Escuela\obj\Debug\net5.0\Razor\Views\Course\Course.cshtml.g.cs
+C:\Users\kembe\OneDrive\Documentos\GitHub\Escuela_PrograII\Escuela\obj\Debug\net5.0\Razor\Views\Student\StudentRegistrar.cshtml.g.cs

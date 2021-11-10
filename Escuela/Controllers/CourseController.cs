@@ -17,6 +17,11 @@ namespace Escuela.Controllers
         {
             return View();
         }
+        public IActionResult CourseRegistrar()
+        {
+            return View();
+        }
+
         // INSERTAR CURSOS
         [HttpPost]
         public IActionResult InsertarCursos(CourseViewModel couseView, ICourse icourse)

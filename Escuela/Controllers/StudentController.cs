@@ -17,6 +17,10 @@ namespace Escuela.Controllers
         {
             return View();
         }
+        public IActionResult StudentRegistrar()
+        {
+            return View();
+        }
         [HttpPost]
         public IActionResult Insertar(StudentViewModel studentView, IStudent istudent)
         {

@@ -1,0 +1,27 @@
+﻿@model Escuela.Models.ViewModel.StudentViewModel
+@{
+    ViewData["Title"] = "StudentRegistrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>StudentRegistrar</h1>
+
+@using (Html.BeginForm("Insertar", "Student", FormMethod.Post))
+    {
+    @Html.LabelFor(f => f.FirtsMidName)
+    @Html.TextBoxFor(f => f.FirtsMidName)
+    @Html.ValidationMessageFor(f => f.FirtsMidName)
+
+    @Html.LabelFor(l => l.LastName)
+    @Html.TextBoxFor(l => l.LastName)
+    @Html.ValidationMessageFor(l => l.LastName)
+
+    @Html.LabelFor(l => l.EnrollementsDate)
+    @Html.TextBoxFor(l => l.EnrollementsDate)
+    @Html.ValidationMessageFor(l => l.EnrollementsDate)
+
+
+
+<input type="submit" value="Continuar" />
+
+    }

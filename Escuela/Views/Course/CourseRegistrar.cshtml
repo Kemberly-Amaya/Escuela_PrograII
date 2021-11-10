@@ -1,0 +1,22 @@
+﻿@model Escuela.Models.ViewModel.CourseViewModel
+@{
+    ViewData["Title"] = "CourseRegistrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>CourseRegistrar</h1>
+
+@using (Html.BeginForm("InsertarCursos", "Course", FormMethod.Post))
+
+    {
+        @Html.LabelFor(l => l.Title)
+        @Html.TextBoxFor(l => l.Title)
+        @Html.ValidationMessageFor(l => l.Title)
+
+        @Html.LabelFor(l => l.Credits)
+        @Html.TextBoxFor(l => l.Credits)
+        @Html.ValidationMessageFor(l => l.Credits)
+
+        <input type="submit" value="Continuar" />
+
+    }
