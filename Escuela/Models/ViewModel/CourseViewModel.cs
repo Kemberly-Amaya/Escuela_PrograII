@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Escuela.Models.ViewModel
 {
-    public class CouseViewModel
+    public class CourseViewModel
     {
         [Display(Name = "Curso")]
         [Required(ErrorMessage = "Este campo es requerido")]

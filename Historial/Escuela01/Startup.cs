@@ -1,3 +1,4 @@
+using Escuela.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,8 +26,8 @@ namespace Escuela
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<>(options => 
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnetion")));
+            services.AddDbContext<AplicattionDbContext>(optios => optios.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
         }
 

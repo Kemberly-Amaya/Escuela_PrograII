@@ -1,0 +1,50 @@
+﻿@*@model Escuela.Models.ViewModel.CourseViewModel*@
+@model List<Escuela.Dominio.Course>
+@{
+    ViewData["Title"] = "Course";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Course</h1>
+@*@using (Html.BeginForm("InsertarCursos", "Course", FormMethod.Post))
+
+{
+    @Html.LabelFor(l => l.Title)
+    @Html.TextBoxFor(l => l.Title)
+    @Html.ValidationMessageFor(l => l.Title)
+
+    @Html.LabelFor(l => l.Credits)
+    @Html.TextBoxFor(l => l.Credits)
+    @Html.ValidationMessageFor(l => l.Credits)
+
+    <input type="submit" value="Continuar" />
+
+}*@
+<table id="mitabla" class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                IdCousw
+            </th>
+            <th>
+               Title
+            </th>
+            <th>
+                Credits
+            </th>
+         
+
+        </tr>
+
+    </thead>
+    <tbody>
+
+        @foreach (var iteracion in Model)
+        {
+        <td>@iteracion.CourseId</td>
+        <td>@iteracion.Title</td>
+        <td>@iteracion.Credits</td>
+   
+    }
+
+        </tbody>

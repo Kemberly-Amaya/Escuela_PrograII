@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/UiFIBJxhgJpYZhbxs2aUs7AK5uJ5bcO9nDOF/E6vSLsLXmIxgG41qWuBicbl0YKtWsNlMkn0JLVmmU+goIJZQ==",
+  "dgSpecHash": "8nmzgKdON6EMuUTj9hSa4yoKBkafZ0kClfO8cQPavipd/BCwPLpErMQlVkvp8Doy/q+96hJEZvlT8SxG9+SUWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj",
+  "projectFilePath": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela01\\Escuela.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kembe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kembe\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.10\\microsoft.aspnetcore.mvc.razor.extensions.5.0.10.nupkg.sha512",

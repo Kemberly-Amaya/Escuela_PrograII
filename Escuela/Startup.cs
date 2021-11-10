@@ -32,9 +32,10 @@ namespace Escuela
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnetion")));
 
 
-            services.AddTransient<ICourse, CourseRepositorio>();
+            services.AddTransient<ICourse, CourseRepository>();
             services.AddTransient<IRollements, EnrollementRepository>();
-            
+            services.AddTransient<IStudent, StudentRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

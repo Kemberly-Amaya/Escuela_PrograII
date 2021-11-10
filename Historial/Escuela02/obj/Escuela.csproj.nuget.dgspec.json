@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj": {}
+    "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela02\\Escuela.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj": {
+    "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela02\\Escuela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj",
+        "projectUniqueName": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela02\\Escuela.csproj",
         "projectName": "Escuela",
-        "projectPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\Escuela.csproj",
+        "projectPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela02\\Escuela.csproj",
         "packagesPath": "C:\\Users\\kembe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\PrograI\\Escuela\\obj\\",
+        "outputPath": "C:\\Users\\kembe\\OneDrive\\Documentos\\GitHub\\Escuela_PrograII\\Historial\\Escuela02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kembe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

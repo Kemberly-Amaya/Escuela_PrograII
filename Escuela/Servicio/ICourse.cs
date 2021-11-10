@@ -10,7 +10,7 @@ namespace Escuela.Servicio
     {
         //Esto se implementara en las otras clases
         //ira a la db y insertara los datos
-        void Insertar(Course c);
+        void InsertarCursos(Course c);
         void Delete(Course c);
         void Buscar(Course c);
 
